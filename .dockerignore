@@ -1,0 +1,48 @@
+# Node.js
+node_modules
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.pnpm-debug.log
+
+# Build artifacts
+dist
+.build
+.output
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
+
+# IDE / Editor
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.DS_Store
+
+# Logs
+logs
+*.log
+
+# Testing
+coverage
+.nyc_output
+
+# Development
+.dockerignore
+Dockerfile
+Dockerfile.dev
+docker-compose.yml
+README.md
+LICENSE
+
+# Git
+.git
+.gitignore
