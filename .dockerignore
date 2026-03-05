@@ -46,3 +46,6 @@ LICENSE
 # Git
 .git
 .gitignore
+
+# analyze
+stats.html

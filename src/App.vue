@@ -1,9 +1,13 @@
 <script setup lang="ts">
-  import { Application } from 'vue3-pixi';
+  import { defineAsyncComponent } from 'vue';
+
+  const PixiApplication = defineAsyncComponent(() =>
+    import('vue3-pixi').then(({ Application }) => Application)
+  );
 </script>
 
 <template>
-  <Application
+  <PixiApplication
     :width="640"
     :height="480"
   />
